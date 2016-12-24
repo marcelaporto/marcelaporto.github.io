@@ -20,7 +20,7 @@ h1{
 	 color: #7c795d; 
 	 font-family: 'Trocchi', serif;
 	 font-variant: small-caps;
-	 margin: 30%;
+
 }
 
 h2{
@@ -72,5 +72,10 @@ a{
 }
 
 #description{
+	text-align: center;
 
+}
+
+#test{
+	margin: 25%;
 }
