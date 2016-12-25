@@ -8,7 +8,7 @@ html {
 }
 
 body{
-	width: 750px;
+	max-width: 750px;
     display: table-cell;
     vertical-align: middle;
     background-color: #ffd699 ;
@@ -18,7 +18,7 @@ body{
 
 h1{
 	 color: #7c795d; 
-	 font-family: 'Trocchi', serif;
+	 font-family: 'Source Sans Pro', sans-serif;
 	 font-variant: small-caps;
 
 }
@@ -35,6 +35,11 @@ a{
 	text-decoration: none;
 	font-weight: bold;
 	font-variant: small-caps;
+}
+
+a:visited { 
+    background-color: #cc7a00;
+    color: #ffd699;
 }
 
 .list{
@@ -76,6 +81,44 @@ a{
 
 }
 
-#test{
+#start{
 	margin: 25%;
 }
+
+#christmas{
+	position:absolute;
+	padding: 0.5%;
+	border: solid 1px red;
+	border-radius: 20px;
+	top: 1020px;
+	right: 700px;
+	text-align: center;
+	font-weight: bold;
+	z-index: 0;
+	font-size: 200%;
+	color: black;
+	font-variant: small-caps;
+}
+
+
+#christmas-image{
+	position: absolute;
+	z-index: -1;
+	max-width: 750px;
+}
+
+@media screen and (max-width: 1800px) {
+  #christmas {
+    position: initial;
+    background-color:  green ;
+    color: white;
+    margin: 1%; 
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+}
+}
+
+/*Add at least one media query to improve the responsiveness of your page; validar e submeter
