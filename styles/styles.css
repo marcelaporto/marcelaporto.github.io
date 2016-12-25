@@ -9,9 +9,9 @@ html {
 
 body{
 	max-width: 750px;
-    display: table-cell;
-    vertical-align: middle;
-    background-color: #ffd699 ;
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #ffd699 ;
 	font-family: "Lucida Console";
 	color: #808080;
 }
@@ -120,3 +120,4 @@ a:visited {
     height: auto;
 }
 }
+
