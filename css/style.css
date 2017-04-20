@@ -7,6 +7,9 @@
  */
 
 
+#logo-placeholder{
+  font-size: 140px;
+}
 
 .more-padding{
   padding-top: 70px;
@@ -18,6 +21,18 @@
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
   filter: blur(5px);
+}
+
+#background-2{
+  min-height:200px;
+}
+
+#text-inside-parallax{
+  margin-top: 0px;
+}
+
+.about-me{
+  line-height: 100px;
 }
 
 nav ul a,
