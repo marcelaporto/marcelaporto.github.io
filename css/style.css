@@ -23,6 +23,18 @@
   filter: blur(5px);
 }
 
+#background-2{
+  min-height:200px;
+}
+
+#text-inside-parallax{
+  margin-top: 0px;
+}
+
+.about-me{
+  line-height: 100px;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
