@@ -7,9 +7,18 @@
  */
 
 
-#logo-placeholder{
-  font-size: 140px;
+#center-logo{
+  padding-top: 30px;
 }
+
+#logo-container{
+    padding-top: 10px;
+}
+
+#navbar{
+  min-width: 1270px;
+}
+
 
 .more-padding{
   padding-top: 70px;
