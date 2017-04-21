@@ -1,8 +1,10 @@
-(function($){
-  $(function(){
+$(document).ready(function(){
+  $('.button-collapse').sideNav();
+  $('.parallax').parallax();
+  $('.carousel.carousel-slider').carousel({fullWidth: true});
+  shift()
+  });
 
-    $('.button-collapse').sideNav();
-    $('.parallax').parallax();
-
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+var shift = setInterval(function(){
+    $('.carousel').carousel('next');
+}, 8000);
