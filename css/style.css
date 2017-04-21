@@ -7,6 +7,10 @@
  */
 
 
+#headshot{
+  padding-top: 100px;
+}
+
 #center-logo{
   padding-top: 30px;
 }
@@ -21,7 +25,7 @@
 
 
 .more-padding{
-  padding-top: 70px;
+  padding-top: 90px;
 }
 
 #blurry{
