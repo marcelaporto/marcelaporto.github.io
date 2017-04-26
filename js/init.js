@@ -2,8 +2,8 @@ $(document).ready(function(){
   $('.button-collapse').sideNav();
   $('.parallax').parallax();
   $('.carousel.carousel-slider').carousel({fullWidth: true});
-  shift()
-  });
+  shift();
+});
 
 var shift = setInterval(function(){
     $('.carousel').carousel('next');
