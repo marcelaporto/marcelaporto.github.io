@@ -5,6 +5,21 @@
  *
  * Made By MaterializeCSS.com
  */
+
+.blog-pt:after{
+  content:"Blog";
+}
+.blog-pt:hover:after{
+  content:"Em Breve";
+}
+
+.blog-en:after{
+  content:"Blog";
+}
+.blog-en:hover:after{
+  content:"Coming Soon";
+}
+
 .project-buttons{
   width: 100%;
   margin-left: 55px;
@@ -74,7 +89,8 @@ nav .brand-logo {
 }
 
 p {
-  line-height: 2rem;
+  line-height: 1.5rem;
+  text-align: justify;
 }
 
 .button-collapse {
