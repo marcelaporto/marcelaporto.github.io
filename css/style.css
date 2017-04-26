@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+
+#projects-content{
+  padding-top: 15px;
+}
+
 .blog-pt:after{
   content:"Blog";
 }
@@ -17,6 +22,20 @@
   content:"Blog";
 }
 .blog-en:hover:after{
+  content:"Coming Soon";
+}
+
+.live-embreve:after{
+  content:"Live";
+}
+.live-embreve:hover:after{
+  content:"Em Breve";
+}
+
+.live-soon:after{
+  content:"Live";
+}
+.live-soon:hover:after{
   content:"Coming Soon";
 }
 
@@ -132,5 +151,5 @@ p {
 }
 
 footer.page-footer {
-  margin: 0;
+  margin: 55px 0px 0px 0px;
 }
