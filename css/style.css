@@ -5,6 +5,19 @@
  *
  * Made By MaterializeCSS.com
  */
+.project-buttons{
+  width: 100%;
+  margin-left: 55px;
+}
+
+#orbidia{
+  padding: 50px 0px 27px 0px;
+}
+
+#brain{
+    padding: 13px 0px 10px 0px;
+}
+
 #carousel {
      height: 456px;
  }
@@ -50,6 +63,11 @@
   line-height: 100px;
 }
 
+.projects{
+  padding: 125px 0px 40px 0px;
+  text-align: justify;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -91,9 +109,10 @@ p {
 
 .icon-block {
   padding: 0 15px;
+  vertical-align: middle;
 }
 .icon-block .material-icons {
-  font-size: inherit;
+  font-size: 25px;
 }
 
 footer.page-footer {
