@@ -13,7 +13,7 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container" id="navbar">
-      <img id="logo-container" class="brand-logo" src="chamaleon.png" alt="Unsplashed background img 1">
+      <img id="logo-container" class="brand-logo" src="images/chamaleon.png" alt="Unsplashed background img 1">
       <ul class="right hide-on-med-and-down">
         <li><a href="Resume_vs1.pdf">Currículo</a></li>
         <li><a href="http://www.github.com/marcelaporto">Github</a></li>
@@ -33,10 +33,10 @@
   <div id="index-banner" class="parallax-container">
     <div class="section" id="center-logo">
       <div class="row center">
-        <img src="logo-final-version.png">
+        <img src="images/logo-final-version.png">
       </div>
     </div>
-    <div class="parallax"><img src="background4.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="images/background4.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
@@ -56,7 +56,7 @@
 
       <div class="row center">
         <div class="col s12 more-padding">
-            <img src="headshot 2.jpg" id="headshot" alt="Unsplashed background img 1">
+            <img src="images/headshot 2.jpg" id="headshot" alt="Unsplashed background img 1">
             <div class="container more-padding">
               <div class="section">
 
@@ -73,7 +73,7 @@
                   </div>
                 </div>
 
-                <a href="" class="btn waves-effect yellow darken-1 darken-text-2">Take a look at my Resume</a>
+                <a href="" class="btn waves-effect yellow darken-2 darken-text-2">Take a look at my Resume</a>
               </div>
             </div>
         </div>
@@ -90,47 +90,62 @@
         </div>
       </div>
     </div>
-    <div class="parallax" id="blurry"><img src="background3.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax" id="blurry"><img src="images/background3.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <!--   Icon Section   -->
+<div class="row container more-padding projects">
+  <div class="col s12 m4">
+    <div class="icon-block center-align">
+      <img src="images/awaken-logo-black.png">
+      <!-- <h5 class="center">Awaken</h5> -->
+      <p class="light">The <strong>Awaken</strong> web app allows the user to set the date/time they would like to wake up, and what information they would like to have at their disposal as they wake up, in the form of widgets (news, weather, commute time, etc). When set time comes, the display in which the Rasberry Pi is connected to turns on with a personalized display with the information. The display automatically turns off after a set amount of time.
+        <ul><li>Tech Stack: Ruby/Rails, HTML/CSS, Javascript/JQuery, Python, Rasberry Pi, Pub/Sub, Heroku, multiple APIs. </li><li><br>Developed in 04/2017</li></ul><br></p>
 
-  <div class="container more-padding">
-  <div class="section">
-  <div class="row">
-    <div class="carousel carousel-slider center" id="carousel" data-indicators="true">
-      <div class="carousel-item red white-text" href="#one!">
-        <h2>Awaken</h2>
-        <p class="white-text">Awaken attempts to make the unpleasant experience of waking up every morning more enjoyable. Our Ruby on Rails web app onboards a user and allows them to set preferences and a date/time for when they want to be woken up.<br>PubNub's publish-subscribe technology connects the server to the Raspberry Pi, which will then turn on the television (or display of choice) and render the user's widgets page.<br> A widgets page will gently awaken the user at that time.
-        </p>
-        <div class="center">
-          <a href="http://github.com/marcelaporto/awaken" class="btn waves-effect white grey-text darken-text-2">Github</a>
-        </div>
-      </div>
-      <div class="carousel-item amber white-text" href="#two!">
-        <h2>Orbidia</h2>
-        <p class="white-text">This is your second panel</p>
-        <div class="center">
-          <a class="btn waves-effect white grey-text darken-text-2">button</a>
-        </div>
-      </div>
-      <div class="carousel-item green white-text" href="#three!">
-        <h2>KeepyourCopy</h2>
-        <p class="white-text">This is your third panel</p>
-      </div>
-      <div class="carousel-item green white-text" href="#three!">
-        <h2>Quintal Mágico</h2>
-        <p class="white-text">This is your third panel</p>
-      </div>
     </div>
+  </div>
 
+  <div class="col s12 m4">
+    <div class="icon-block center-align">
+      <img src="images/orbidia-logo.png" id="orbidia">
+      <!-- <h5 class="center">Easy to work with</h5> -->
+
+      <p class="light"><strong>Orbidia</strong> connects you to the world via media. The web app continually suggests music and films based on the countries/language and genres the user chooses. Other users from around the world help you connect to the media that you want to consume by making comparisons between artists around the world (for eg, for those who like Artic Monkeys and are looking for brazilian music, how about Los Hermanos?).<ul><li>Tech Stack: HTML/CSS, Javascript/JQuery, Rails/Sinatra, Spotify API, IMDB API. </li><li><br>Developed in 03/2017</li></ul><br></p>
+    </div>
+  </div>
+
+  <div class="col s12 m4">
+    <div class="icon-block center-align">
+      <img src="images/keepyourcopy-logo.png" id="brain">
+      <!-- <h5 class="center">KeepYourCopy</h5> -->
+
+      <p class="light"><strong>KeepYourCopy</strong> is a Chrome Extension that stores the last 15 bits of informations the user has copied into his/hers computer's clipboard (Ctrl+C/⌘+C). In 'script' mode, everything the user copies to the clipboard goes to a Google Docs file automatically. <ul><li>Tech Stack: HTML/CSS, Javascript, Google Drive API. </li><li><br>In production since 04/2017</li></ul><br></p>
+    </div>
+  </div>
 
 </div>
-</div>
+
+<div class="row container align-items project-buttons">
+  <div class="col l6 s18">
+    <div class="center-align">
+      <a class="btn-floating btn-large waves-effect waves-light pink lighten-2" href="http://www.github.com/marcelaporto/awaken"><i class="material-icons">code</i></a>
+    </div>
+  </div>
+
+  <div class="col l3 s12">
+    <div class="center-align">
+      <a class="btn-floating btn-large waves-effect waves-light pink lighten-2" href="http://www.github.com/marcelaporto/orbidia" id="orbidia-code"><i class="material-icons">code</i></a>
+    </div>
+  </div>
+
+  <div class="col l18 s18">
+    <div class="center-align">
+      <a class="btn-floating btn-large waves-effect waves-light pink lighten-2" href="http://www.github.com/marcelaporto/keepyourcopy" id="brain-code"><i class="material-icons">code</i></a>
+    </div>
+  </div>
 </div>
 
-
-  <footer class="page-footer teal more-padding">
+  <footer class="page-footer blue darken-2 more-padding">
     <div class="container">
       <div class="row">
         <div class="col l3 s12">
