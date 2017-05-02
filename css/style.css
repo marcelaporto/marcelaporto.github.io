@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+.big-text{
+  padding: 20px 90px 10px 200px;
+  text-align: left;
+}
 
 #projects-content{
   padding-top: 15px;
@@ -112,6 +116,10 @@ p {
   text-align: justify;
 }
 
+#footer-container{
+  text-align: center;
+}
+
 .button-collapse {
   color: #26a69a;
 }
@@ -151,5 +159,6 @@ p {
 }
 
 footer.page-footer {
-  margin: 55px 0px 0px 0px;
+  margin: 55px 0px -15px 0px;
+  padding: 10px;
 }
