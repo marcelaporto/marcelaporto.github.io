@@ -12,7 +12,7 @@
   text-align: left;
 }
 
-#projects-content{
+.projects-content{
   padding-top: 15px;
 }
 
@@ -125,6 +125,10 @@ p {
   color: #26a69a;
 }
 
+#projects{
+  overflow-x: auto;
+}
+
 .parallax-container {
   min-height: 400px;
   line-height: 200px;
@@ -143,7 +147,37 @@ p {
   #index-banner .section {
     top: 10%;
   }
+
+  #logo-container{
+    visibility: hidden;
+    height: 0px:
+  }
+
+  #navbar{
+    height: 2px;
+  }
+
+  nav{
+    height: 0px;
+  }
+
+  #index-banner{
+    width: 100%
+  }
+
+  .big-text{
+    padding: 0px;
+    text-align: justify;
+  }
+
+  .icon-block{
+    padding-bottom: 55px;
+  }
+
+
 }
+
+
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
@@ -160,6 +194,14 @@ p {
 }
 
 footer.page-footer {
-  margin: 55px 0px -15px 0px;
+  margin: 15px 0px -15px 0px;
   padding: 10px;
+}
+
+.responsive-bottom{
+  padding-bottom: 65px;
+}
+
+#brain{
+  margin-top: 25px;
 }
